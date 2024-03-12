@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      box-sizing: content-box;
+    }
+    
+    .box1{
+      width: 550px;
+      height: 50px;
+      display: inline-block;
+      text-align: center;
+      background: #abcdef;
+      border-top: double;
+      border-left: double;
+      border-right: double;
+      border-bottom: double;
+      border-color: #123456;
+      padding-top: 20px;
+      margin:0;
+    }
+    .box2{
+      width: 550px;
+      height: 100px;
+      border-left: 2px double #123456;
+      border-right: 2px double #123456;
+      border-top: 2px double #123456;
+      border-bottom: 2px dotted #123456;
+      margin:0;
+    }
+    .box3{
+      width: 550px;
+      height: 100px;
+      border-left: 2px double #123456;
+      border-right: 2px double #123456;
+      border-bottom: 2px double #123456;
+      border-top-style: hidden;
+      margin:0;
+    }
+    .content{
+      font-size: x-large;   
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="box1 content">속담풀이</div>
+    <div class="box2">
+      <div class="content">말 한마디에 천냥 빚진다.</div>
+      <p>생각해보지 않고 나오는 대로 말하다가 실수하면 상대의 마음에 아픔을 남기게 된다.</p>
+    </div>
+    <div class="box3">
+      <div class="content">웃는 얼굴에 침 못 뱉는다.</div>
+      <p>호의적인 의사소통 방법은 자기 말만 하는 것보다 좋은 결과를 이어진다.</p>
+    </div>
+  </div>
+
+</body>
+</html>
