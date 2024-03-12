@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #hello{
+      background: red;
+      display: block;
+      width: 300px;
+      height: 200px;
+      margin-top: 200px;
+      padding: 10px;
+    }
+
+    .click{
+      width: 150px;
+      height: 100px;
+      background: greenyellow;
+    }
+
+    .click a{
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .box{
+      margin-bottom: 50px;
+    }
+
+    .box input{
+      height: 40px;
+      display: inline-block;
+    }
+    .box input:nth-child(3){
+      /* display:none;  사라지게 하는 태그 단, 다음 순번이 사라진 자리를 차지함*/
+      /* opacity: 0.3; 1이 다 보이는 거고 0에 가까워질수록 투명해짐 단, 커서 가능*/
+      visibility: hidden; /* 커서 자리 둘 다 없어짐*/
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <input type="text" value='1'>
+  <input type="text" value='2'>
+  <input type="text" value='3'>
+  <input type="text" value='4'>
+  <input type="text" value='5'>
+</div>
+
+  <span id="hello">안뇽안뇽</span>
+
+  <div class="click">
+    <a href="">click me!!</a>
+  </div>
+</body>
+</html>
