@@ -1,0 +1,65 @@
+body{
+  background: gray;
+}
+#wrapper{
+  margin: 0 50px;
+  border: 1px solid black;
+}
+#wrapper header h1{
+  color: rgb(173, 173, 47);
+  background: #132c70;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;;
+}
+#wrapper header h1 strong{
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+#wrapper header h1 span{
+  color: rgb(173, 173, 47);
+  font-size: 40px;
+  font-weight: bold;
+}
+#wrapper header h1 em{
+  color: rgb(185, 183, 183);
+  font-size: 50px;
+  font-weight: bold;
+}
+.clearfix{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#wrapper div.container ul.menu{
+  border: 1px solid black;
+  color: black;
+  background: rgb(185, 183, 183);
+  float: left;
+}
+
+#wrapper div.container div.content h2{
+  border: 1px solid rgb(136, 38, 38);
+  background: rgb(136, 38, 38);
+  color: yellow;
+  font-size: 20px;
+  padding: 15px;
+  text-indent: 15px;
+}
+
+#wrapper div.container div.content p{
+  background: white;
+  padding: 15px;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+#wrapper footer address{
+  border: 1px solid rgb(143, 139, 139);
+  background: rgb(143, 139, 139);
+  padding: 10px;
+  text-indent: 10px;
+}

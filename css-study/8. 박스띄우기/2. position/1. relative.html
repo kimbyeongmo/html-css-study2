@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      margin: 100px;
+    }
+    .box{
+      width: 100px;
+      height: 100px;
+      background: orange;
+      border: 4px dashed red;
+      font-size: 30px;
+
+      /* 텍스트 중앙정렬 */
+      /* text-align: center;
+      line-height: 100px; */
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box:nth-child(2){
+      /* 포지션을 안 주는 것 : static(기본값) */
+      /* position: static; */
+
+      position: relative;
+      /* relative 기준으로 */
+      /* '왼쪽으로 가라'가 아닌 왼쪽을 기준으로 양수면 오른쪽, 음수면 왼쪽으로 이동함 */
+      /* '오른쪽으로 가라'가 아닌 오른쪽을 기준으로 양수면 왼쪽, 음수면 오른쪽으로 이동함 */ 
+      left: 10px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <box class="box">1</box>
+    <box class="box">2</box>
+    <box class="box">3</box>
+  </div>
+
+</body>
+</html>

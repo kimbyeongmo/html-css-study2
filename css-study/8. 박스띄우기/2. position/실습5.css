@@ -1,0 +1,153 @@
+body {
+  background: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  font-family: 'NGothic', sans-serif;
+}
+
+#wrapper{
+  width: 80%;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+
+#wrapper header h1{
+  background: orange;
+  text-align: center;
+  font-size: 90px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
+#wrapper header h1 span{
+  display: block;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#wrapper header h2.stit{
+  background: #ccc;
+  text-align: center;
+  padding: 3px;
+}
+
+#wrapper div.container{
+  background: white;
+  width: 100%;
+}
+
+#wrapper div.container aside.side-menu{
+  width: 20%;
+  float: left;
+}
+#wrapper div.container aside.side-menu h3{
+  background: #800;
+  padding: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-indent: 10px;
+}
+
+#wrapper div.container aside.side-menu ul{
+  padding: 10px;
+}
+
+#wrapper div.container aside.side-menu ul li{
+  text-decoration: underline;
+  padding: 5px;
+}
+
+#wrapper div.container aside.side-menu ul li a:hover{
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+#wrapper div.container div.main-content{
+  width: 60%;
+  padding: 10px;
+  background: #ccc;
+  float: left;
+}
+
+#wrapper div.container div.main-content .art-piece{
+  width: 100%;
+  float: left;
+}
+
+#wrapper div.container div.main-content .art-piece h4.title{
+  background: #123456;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#wrapper div.container div.main-content .art-piece div.artist{
+  color: #123456;
+  padding: 10px 0;
+  font-size: 15px;  
+  font-weight: bold;
+}
+
+#wrapper div.container div.main-content .art-piece p.detail{
+  color: #123456;
+  padding: 10px 0;
+}
+
+#wrapper div.container aside.banner{
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+
+#wrapper div.container aside.banner h3{
+  margin-bottom: 15px;
+}
+
+#wrapper div.container aside.banner h3 span.all{
+  font-size: 17px;
+  color: gray;
+  text-decoration: underline;
+  font-weight: bold;
+  
+}
+
+#wrapper div.container aside.banner h3 span.love{
+  font-size: 17px;
+  color: orange;
+  text-decoration: underline;
+  font-weight: bold;
+  display: block;
+}
+
+#wrapper div.container aside.banner h3 strong{
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+#wrapper div.container aside.banner ul.link li a{
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: black;
+  display: block;
+}
+
+#wrapper div.container aside.banner ul.link li span{
+  font-size: 12px;
+}
+
+#wrapper footer{
+  background: #123456;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#wrapper footer address a{
+  text-decoration: underline;
+}

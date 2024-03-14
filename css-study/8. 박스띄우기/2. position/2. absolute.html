@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      margin: 10px;
+    }
+    .box{
+      width: 100px;
+      height: 100px;
+      background: orange;
+      border: 4px dashed red;
+      font-size: 30px;
+
+      /* 텍스트 중앙정렬 */
+      /* text-align: center;
+      line-height: 100px; */
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box:nth-child(2){
+      /* absolute의 이동 기준점은 조상 중에 position : xxx를 가진 조상을 기준으로 삼는다 */
+      /* 기준점은 position:relative으로 작성하는 게 좋다 단, position:static은 기준점을 사용 할 수 없음*/
+      /* 만약 조상 중에 position 태그가 없으면 전체 뷰포트를 기준점으로 삼는다 */
+
+      position: absolute;
+      right: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <box class="box">1</box>
+    <box class="box">2</box>
+    <box class="box">3</box>
+  </div>
+
+</body>
+</html>
